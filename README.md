@@ -2,8 +2,6 @@
 
 This repository contains code exercises for the SLAM section in the lecture series - ['Computer Vision, LiDAR processing, and Sensor Fusion for Autonomous Driving'](https://fastcampus.co.kr/data_online_autovehicle) at FastCampus. This lecture series is delivered in Korean language.
 
-![](title.png)
-
 ## How to use
 
 Most of the code exercises are based on the base docker image. The base docker image contains numerous C++ libraries for SLAM, such as OpenCV, Eigen, Sophus, PCL, and ceres-solver. 
@@ -11,10 +9,10 @@ Most of the code exercises are based on the base docker image. The base docker i
 You can build the base docker image using the following command. 
 
 ```shell
-docker build . --tag slam:latest --progress=plain
-echo "xhost +local:docker" >> ~/.profile
+sh build_docker.sh
 ```
-
+## MY STUDY LOG
+- [STUDY LOG](./READ_MY_STUDY.md)
 ## Table of contents
 
 - Chapter 1: Introduction to SLAM
